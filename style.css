@@ -1,0 +1,41 @@
+/*Padrão do Font-size = 16px*/
+
+html, body{
+    font-size: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #666;
+}
+
+div {
+    font-size: 20px;
+}
+
+/* Filho da div */
+div p {
+    font-size: 2em;
+}
+
+main {
+    font-size: 40px;
+}
+
+main p {
+    /* 1rem = 16px - PADRAO*/
+    font-size: 4rem;
+
+    /* 
+        Alterando o html para
+        10px a * começa a ser por
+        10px
+    */
+}
+
+@media(max-width: 320px){
+    html, body{
+        font-size: 30px;
+        color: red;
+    }
+}
+
+
+
